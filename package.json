@@ -1,23 +1,16 @@
 {
   "name": "learn-electron",
   "version": "1.0.0",
-  "description": "learn how to use electron",
+  "description": "learn electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mind-dance/learn-electron.git"
-  },
   "author": "vincent",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mind-dance/learn-electron/issues"
-  },
-  "homepage": "https://github.com/mind-dance/learn-electron#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
     "electron": "^30.0.9"
   }
 }
